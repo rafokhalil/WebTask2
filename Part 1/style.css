@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.navigation>ul {
+    list-style: none;
+    background-color: #072227;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+.navigation>ul>li {
+    display: inline-block;
+}
+
+.navigation>ul>li>a {
+    text-decoration: none;
+    color: gray;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navigation>ul>li>a:hover {
+    color: white;
+}
+
+.navigation>ul>li>a>i {
+    padding: 5px;
+}
+
+.navigation>ul>li>a>i:hover {
+    color: blue;
+    padding: 8px;
+}
+
+.menu>ul {
+    list-style: none;
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+.menu>ul>li {
+    display: inline-block;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.menu>ul>button {
+    color: gray;
+    padding: 10px;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    margin: 5px;
+    border: dodgerblue;
+    transition-property: color;
+    transition: 1s;
+    font-size: 1.5em;
+}
+
+.menu>ul>button:hover {
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.menu>ul>li>p {
+    margin: auto;
+    position: absolute;
+    left: 720px;
+    top: 110px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: gray;
+}
+
+.menu>ul>li>p:hover {
+    margin: auto;
+    position: absolute;
+    left: 720px;
+    top: 110px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: gray;
+}
